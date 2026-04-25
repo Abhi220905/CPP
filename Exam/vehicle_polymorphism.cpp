@@ -17,7 +17,7 @@ public:
         cout << "Vehicle Model: " << model << " | Speed: " << speed << " km/h" << endl;
     }
 
-    virtual ~Vehicle() {} // Virtual destructor for proper cleanup
+    virtual ~Vehicle() {}  
 };
 
 // Derived Class: Car
@@ -49,7 +49,6 @@ int main() {
 
     cout << "--- Polymorphism in Action ---" << endl;
     for (int i = 0; i < 2; i++) {
-        // Polymorphism: Calling the correct displayDetails() at runtime
         vehicles[i]->displayDetails();
     }
 

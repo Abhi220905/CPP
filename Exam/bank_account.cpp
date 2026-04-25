@@ -49,16 +49,12 @@ public:
 };
 
 int main() {
-    // Interacting with the class through member functions (Encapsulation)
     BankAccount myAccount("123456789", "Abhi K", 1000.0);
 
     myAccount.displayBalance();
     myAccount.credit(500.0);
     myAccount.debit(200.0);
     myAccount.displayBalance();
-
-    // Note: Private attributes like balance cannot be accessed directly:
-    // myAccount.balance = 5000; // This would cause a compilation error.
 
     return 0;
 }
