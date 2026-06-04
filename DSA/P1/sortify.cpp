@@ -207,7 +207,7 @@ int main() {
         cout << "0. Exit" << endl;
         cout << "Enter your choice: ";
         cin >> choice;
- 
+   
         switch (choice) {
             case 1: mission1(); break;
             case 2: mission2(); break;
