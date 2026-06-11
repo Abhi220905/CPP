@@ -13,7 +13,7 @@ public:
     virtual ~IStack() {}
 };
 
-// Derived Class representing the Stack
+// Derived Class representing the Stack 
 class Stack : public IStack {
 private:
     // Encapsulation: making data members private
