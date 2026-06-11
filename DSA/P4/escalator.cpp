@@ -16,7 +16,7 @@ public:
 // Derived Class representing the Stack 
 class Stack : public IStack {
 private:
-    // Encapsulation: making data members private
+    // Encapsulation: making data members private 
     int* arr;
     int capacity;
     int topIndex;
