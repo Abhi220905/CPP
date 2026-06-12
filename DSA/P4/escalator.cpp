@@ -20,7 +20,7 @@ private:
     int* arr;
     int capacity;
     int topIndex;
-
+ 
 public:
     // Constructor
     Stack(int size = 100) {
