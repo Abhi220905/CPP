@@ -147,7 +147,7 @@ void displayArray(vector<int>& arr) {
 int main() {
     int choice;
 
-    vector<int> arr;
+    vector<int> arr; 
 
     do {
         cout << "\n===== MENU =====\n";
